@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base,
+    // base,
     title: "樂码",
     description: "樂码的官方文档库",
     head: [
