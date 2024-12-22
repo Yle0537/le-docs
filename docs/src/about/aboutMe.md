@@ -1,3 +1,5 @@
+![img.png](../public/assets/img.png)
+
 # 关于我
 
 **沉淀、分享、成长，让自己和他人都能有所收获！**
@@ -5,17 +7,9 @@
 ## 联系我
 
 
-你也可以添加本站作者小小樂的
+你也可以添加本站作者小樂的
 
-### **QQ**:3392526036
+- **QQ**: 3392526036
+- **WeChat**: wxid_4287newoj9v622
 
-### **微信**:
-![wechat.jpg](../public/assets/wechat.jpg)
-
-> 把文档库安装到手机桌面：
-> 
-> iOS 用户可以通过 Safari 浏览器来保存 leniu.xyz 到应用到首页屏幕上。
-> 
-> 具体操作: 在 `Safari` 浏览器中打开 https://leniu.xyz 点击 分享按钮->添加到主屏幕即可。
-> 
-> —— 随时随地，开启学习
+<div style="text-align:center;"> —— 随时随地，开启学习 —— </div>

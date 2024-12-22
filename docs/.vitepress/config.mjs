@@ -8,6 +8,13 @@ const themeConfig = {
     logo: './favicon.ico',
     nav: navbar,
     sidebar: sidebar,
+    lastUpdated: {
+        text: "最后更新于",
+        formatOptions: {
+            dateStyle: "full",
+            timeStyle: "medium",
+        },
+    },
 
     socialLinks: [
         {icon: 'github', link: 'https://github.com/Yle0537/le-docs'},
@@ -33,11 +40,5 @@ export default defineConfig({
     themeConfig: themeConfig,
     cleanUrls: true,
     srcDir: './src',
-    lastUpdated: {
-        text: "最后更新于",
-        formatOptions: {
-            dateStyle: "full",
-            timeStyle: "medium",
-        },
-    },
+
 })
