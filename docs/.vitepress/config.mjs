@@ -6,23 +6,6 @@ import {sidebar} from "./layout/sidebar.js";
 
 const themeConfig = {
     logo: './favicon.ico',
-    // nav: [
-    //     {text: '首页', link: '/'},
-    //     {
-    //         text: '数据结构与算法',
-    //         items: [
-    //             {text: "数据结构", link: '/'},
-    //         ]
-    //     },
-    // ],
-    // sidebar: [
-    //     {
-    //         text: 'Examples',
-    //         items: [
-    //             {text: 'Markdown Examples', link: 'md/markdown-examples'},
-    //         ]
-    //     }
-    // ],
     nav: navbar,
     sidebar: sidebar,
 
