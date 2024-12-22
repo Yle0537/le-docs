@@ -17,3 +17,7 @@
         --vp-home-hero-image-filter: blur(68px);
     }
 }
+
+.image-src {
+    border-radius: 25px 25px 25px 25px;
+}
