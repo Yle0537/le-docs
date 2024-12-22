@@ -1,7 +1,10 @@
 import { defineConfig } from 'vitepress'
 
+const base = "/le-docs/"
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base,
   title: "樂码",
   description: "樂码的官方文档库",
   themeConfig: {
