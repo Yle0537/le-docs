@@ -7,7 +7,7 @@ hero:
   text: "樂码的官方文档库"
   tagline: 为广大学子提供更好的帮助
   image:
-    src: public/assets/logo2.jpg
+    src: /assets/logo2.jpg
     alt: 樂码
   actions:
     - theme: brand
