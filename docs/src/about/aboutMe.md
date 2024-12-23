@@ -1,9 +1,12 @@
 ---
 prev: false
+next: false
+aside: false
+sidebar: false
 ---
 ![img.png](../public/assets/img.png)
 
-# 关于我
+# <div style="text-align:center;"> 关于我 </div>
 
 **沉淀、分享、成长，让自己和他人都能有所收获！**
 
