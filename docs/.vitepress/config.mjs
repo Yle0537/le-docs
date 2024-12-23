@@ -1,4 +1,7 @@
 import {defineConfig} from 'vitepress'
+import markdownItPlantuml from "markdown-it-textual-uml";
+import mdItCustomAttrs from "markdown-it-custom-attrs";
+
 import {navbar} from "./layout/navbar.js";
 import {sidebar} from "./layout/sidebar.js";
 
@@ -11,7 +14,7 @@ const themeConfig = {
     lastUpdated: {
         text: "最后更新于",
         formatOptions: {
-            dateStyle: "full",
+            dateStyle: "short",
             timeStyle: "medium",
         },
     },
@@ -24,7 +27,19 @@ const themeConfig = {
             },
             link: 'https://space.bilibili.com/390449104?spm_id_from=333.1007.0.0'
         },
-    ]
+    ],
+    editLink: {
+        pattern: "https://github.com/Yle0537/le-docs/edit/master/docs/src/:path",
+        text: "在 GitHub 上编辑此页面",
+    },
+    outline: {
+        level: "deep",
+        label: "页面导航",
+    },
+    docFooter: {
+        prev: "上一篇",
+        next: "下一篇",
+    },
 }
 
 // https://vitepress.dev/reference/site-config
@@ -35,10 +50,21 @@ export default defineConfig({
     head: [
         ['link', {rel: 'icon', href: './favicon.ico'}],
         ['link', {rel: 'stylesheet', href: './static/css/style.css'}],
+        ["link", {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css",},],
+        ["script", {src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js",},],
     ],
     // https://vitepress.dev/reference/default-theme-config
     themeConfig: themeConfig,
     cleanUrls: true,
     srcDir: './src',
-
+    markdown: {
+        math: true,
+        lineNumbers: true,
+        config: (md) => {
+            md.use(markdownItPlantuml);
+            md.use(mdItCustomAttrs, "image", {
+                "data-fancybox": "gallery",
+            });
+        },
+    },
 })

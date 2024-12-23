@@ -1,5 +1,10 @@
 {
   "devDependencies": {
+    "install": "^0.13.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-custom-attrs": "^1.0.2",
+    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-textual-uml": "^0.17.1",
     "vitepress": "^1.5.0"
   },
   "scripts": {
