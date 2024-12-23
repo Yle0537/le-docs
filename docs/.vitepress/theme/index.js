@@ -3,6 +3,7 @@ import Confetti from './components/Confetti.vue';
 import busuanzi from "busuanzi.pure.js";
 import {inBrowser} from "vitepress";
 import DataPanel from "./components/DataPanel.vue";
+import './custom.css'
 
 export default {
     extends: DefaultTheme,
