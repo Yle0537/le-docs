@@ -30,16 +30,21 @@ const themeConfig = {
     ],
     editLink: {
         pattern: "https://github.com/Yle0537/le-docs/edit/master/docs/src/:path",
-        text: "在 GitHub 上编辑此页面",
+        text: "编辑此页面",
     },
     outline: {
         level: "deep",
-        label: "页面导航",
+        label: "大纲",
     },
     docFooter: {
         prev: "上一篇",
         next: "下一篇",
     },
+    returnToTopLabel: "回到顶部",
+    sidebarMenuLabel: "菜单",
+    search: {
+        provider: 'local'
+    }
 }
 
 // https://vitepress.dev/reference/site-config
