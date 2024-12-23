@@ -15,6 +15,7 @@ export const sidebar = {
             items: [
                 {text: "算法简介", link: "/md/算法竞赛/算法/算法简介"},
                 {text: "基础", link: "/md/算法竞赛/算法/基础"},
+                {text: "常用模板", link: "/md/算法竞赛/算法/常用模板"},
                 {text: "双指针", link: "/md/算法竞赛/算法/双指针"},
             ]
         }
