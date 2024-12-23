@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "busuanzi.pure.js": "^1.0.3",
+    "canvas-confetti": "^1.9.3",
     "install": "^0.13.0",
     "markdown-it": "^14.1.0",
     "markdown-it-custom-attrs": "^1.0.2",

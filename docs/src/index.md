@@ -28,3 +28,6 @@ features:
     title: 分享
     details: 晚来天欲雪，能饮一杯无？
 ---
+
+<DataPanel />
+<Confetti />
