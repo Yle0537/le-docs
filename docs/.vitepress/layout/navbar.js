@@ -3,7 +3,6 @@ export const navbar = [
 
     {
         text: "✨算法竞赛",
-        // link: "/md/算法竞赛/index",
         items: [
             {
                 text: "竞赛介绍",
@@ -11,19 +10,15 @@ export const navbar = [
             },
             {
                 text: "数据结构",
-                link: "md/算法竞赛/数据结构/index",
+                link: "md/算法竞赛/数据结构/数据结构简介",
             },
             {
                 text: "算法",
-                link: "md/算法竞赛/算法/index",
+                link: "md/算法竞赛/算法/算法简介",
             },
             {
                 text: "题单",
-                items: [
-                    {text: "力扣", link: "/md/算法竞赛/题单/leetCode/index"},
-                    {text: "洛谷", link: "/md/算法竞赛/题单/luoGu/index"},
-                    {text: "其它", link: "/md/算法竞赛/题单/other/index"},
-                ]
+                link: "/md/算法竞赛/题单/index",
             }
         ],
     },
