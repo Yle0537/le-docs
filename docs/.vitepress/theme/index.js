@@ -4,7 +4,6 @@ import busuanzi from "busuanzi.pure.js";
 import {inBrowser} from "vitepress";
 import DataPanel from "./components/DataPanel.vue";
 import './custom.css'
-import MyLayout from "./components/MyLayout.vue";
 
 export default {
     extends: DefaultTheme,
@@ -18,5 +17,4 @@ export default {
             };
         }
     },
-    Layout: MyLayout,
 };
