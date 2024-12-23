@@ -3,8 +3,9 @@ export const sidebar = {
         {
             text: "数据结构",
             items: [
-                {text: "数据结构简介", link: "/md/算法竞赛/数据结构/index"},
+                {text: "数据结构简介", link: "/md/算法竞赛/数据结构/数据结构简介"},
                 {text: "列表", link: "/md/算法竞赛/数据结构/列表"},
+                {text: "栈", link: "/md/算法竞赛/数据结构/栈"},
             ]
         }
     ],
@@ -12,43 +13,37 @@ export const sidebar = {
         {
             text: "算法",
             items: [
-                {text: "基础简介", link: "/md/算法竞赛/算法/index"},
+                {text: "算法简介", link: "/md/算法竞赛/算法/算法简介"},
                 {text: "基础", link: "/md/算法竞赛/算法/基础"},
                 {text: "双指针", link: "/md/算法竞赛/算法/双指针"},
             ]
         }
     ],
-    '/md/算法竞赛/题单/leetCode': [
+    '/md/算法竞赛/题单/': [
         {
             text: "力扣",
             items: [
+                {text: "力扣简介", link: "/md/算法竞赛/题单/leetCode/"},
                 {text: "A+B", link: "/md/算法竞赛/题单/leetCode/A+B"},
             ]
-        }
-    ],
-    '/md/算法竞赛/题单/luoGu': [
+        },
         {
             text: "洛谷",
             items: [
+                {text: "洛谷简介", link: "/md/算法竞赛/题单/luoGu/"},
                 {text: "A+B", link: "/md/算法竞赛/题单/luoGu/A+B"},
             ]
-        }
-    ],
-    '/md/算法竞赛/题单/other': [
+        },
         {
             text: "其它",
             items: [
+                {text: "其它OJ平台", link: "/md/算法竞赛/题单/other/"},
                 {text: "A+B", link: "/md/算法竞赛/题单/other/A+B"},
             ]
         }
     ],
     '/about/': [
-        {
-            text: "About",
-            items: [
-                {text: "前言", link: "/about/index"},
-                {text: "关于我", link: "/about/aboutMe"},
-            ]
-        }
+        {text: "关于", link: "/about/aboutMe"},
+        {text: "前言", link: "/about/"},
     ]
 }
