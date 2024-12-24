@@ -28,6 +28,7 @@ export const navbar = [
         items: [
             {text: "洛谷", link: 'https://www.luogu.com.cn/'},
             {text: "百度", link: 'https://www.baidu.com/'},
+            {text: "AcWing", link: 'https://www.acwing.com/'},
             {text: "关于我", link: '/about/aboutMe'},
         ]
     },
