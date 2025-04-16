@@ -1,5 +1,5 @@
 ---
-aside: true
+aside: false
 ---
 # 竞赛介绍
 

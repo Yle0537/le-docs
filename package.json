@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@types/animejs": "^3.1.13",
+    "animejs": "^4.0.1",
     "busuanzi.pure.js": "^1.0.3",
     "canvas-confetti": "^1.9.3",
     "install": "^0.13.0",

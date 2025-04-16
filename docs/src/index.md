@@ -13,9 +13,6 @@ hero:
     - theme: brand
       text: 快速开始 →
       link: about/index
-    - theme: alt
-      text: 关于我
-      link: about/aboutMe
 
 features:
   - icon: 🧗
@@ -27,8 +24,6 @@ features:
   - icon: 🍻
     title: 算法之路
     details: 晚来天欲雪，能饮一杯无？
-    link: md/算法竞赛/算法/算法简介
-    linkText: more
 ---
 
 <DataPanel />

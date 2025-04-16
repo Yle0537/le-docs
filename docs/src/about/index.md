@@ -1,6 +1,8 @@
 ---
 prev: false
 next: false
+aside: false
+sidebar: false
 ---
 
 # 入门须知
