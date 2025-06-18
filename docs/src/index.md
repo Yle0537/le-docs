@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "樂"
+  name: "樂の"
   tagline: 程序员的自我修养
   image:
     src: /assets/logo2.jpg
