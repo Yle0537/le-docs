@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "樂の文档库"
-  text: "樂の文档库"
-  tagline: 为广大学子提供更好的帮助
+  name: "樂"
+  tagline: 程序员的自我修养
   image:
     src: /assets/logo2.jpg
     alt: 樂码
