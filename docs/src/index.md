@@ -7,7 +7,6 @@ hero:
   tagline: 程序员的自我修养
   image:
     src: /assets/logo2.jpg
-    alt: 樂码
   actions:
     - theme: brand
       text: 快速开始 →
