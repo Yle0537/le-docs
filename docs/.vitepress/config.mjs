@@ -95,8 +95,8 @@ const themeConfig = {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	// base,
-	title: "樂码",
-	description: "樂码的官方文档库",
+	title: "樂",
+	description: "樂的文档库",
 	head: [
 		['link', {rel: 'icon', href: './favicon.ico'}],
 		['link', {rel: 'stylesheet', href: './static/css/style.css'}],
