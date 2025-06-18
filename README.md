@@ -1,10 +1,7 @@
-# 樂码的官方文档库 📝💨
+#樂の文档仓库 📝💨
+
+记录一些开发笔记
 
 ## 网站链接
 
-To check out docs, visit [樂码的官方文档库](https://leniu.xyz/).
-
-### 更新日志
-
-- 2024.12.23: 更新为正式预览版
-- 2024.12.23: 更新为正式版
+To check out docs, visit 文档仓库](https://leniu.xyz/).
