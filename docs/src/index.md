@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "樂码"
-  text: "樂码的官方文档库"
+  name: "樂の文档库"
+  text: "樂の文档库"
   tagline: 为广大学子提供更好的帮助
   image:
     src: /assets/logo2.jpg
